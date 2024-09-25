@@ -1,0 +1,20 @@
+@media(width < 942px) {
+    .content{
+        flex-wrap: wrap;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu li a {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    .text-container p{
+        padding: 0px;
+    }
+    .image-container img {
+        
+        max-width: 400px;
+    }
+}
