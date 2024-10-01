@@ -14,7 +14,27 @@
         padding: 0px;
     }
     .image-container img {
-        
         max-width: 400px;
+    }
+    .compositores{
+        max-width: 600px;
+    }
+    .imagem-compositor img {
+        max-width: 300px;
+        min-height: 250px;
+    }
+    .aside p{
+        width: 100%;
+    }
+    .card-music {
+        width: 100%;
+    }
+    #historia p {
+        padding: 10px;
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .curiosidades{
+        grid-template-columns: none;
     }
 }
