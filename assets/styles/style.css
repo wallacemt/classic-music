@@ -271,14 +271,18 @@ header {
 .imagem-compositor img {
     border-radius: 40px;
     box-shadow: 0px 0px 10px    rgba(0, 0, 0, 0.5);
-
     width: 600px; 
     max-height: 750px;
-
     margin-top: 20px;
     border: 2px solid var(--antico-violino-5);
+    transition: 1s;
 }
-
+.imagem-compositor img:hover{
+    border: 2px solid var(--antico-violino-1);
+    transition: 1s;
+    width: 650px;
+    max-height: 800px;
+}
 .card-music {
     display: flex;
     justify-content: center;
