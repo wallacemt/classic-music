@@ -31,7 +31,7 @@ body {
     font-family: var(--font-body);
 }
 .header-container {
-    background-image: url("../assets/images/back-header.jpg");
+    background-image: url("../images/back-header.jpg");
     background-size: cover;
     background-attachment: fixed;
 
@@ -157,7 +157,7 @@ header {
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-image: url("../assets/images/dark-wood.jpg");
+    background-image: url("../images/dark-wood.jpg");
 }
 #historia h2 {
     color: white;
@@ -194,7 +194,7 @@ header {
 .cp-container {
     display: flex;
     justify-content: center;
-    background-image: url("../assets/images/back-main.jpg");
+    background-image: url("../images/back-main.jpg");
     background-size: cover;
     background-attachment: fixed;
     align-items: center;
